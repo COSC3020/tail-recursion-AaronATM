@@ -24,8 +24,3 @@ function fib(n, i = 2)
     i++;
     return fib(n, i);
 }
-
-// these values are the same, not sure why the test is not working
-
-console.log(JSON.stringify(fib(15)));
-console.log(JSON.stringify([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]));
